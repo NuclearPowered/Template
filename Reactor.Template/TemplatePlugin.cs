@@ -2,7 +2,6 @@
 using BepInEx.Configuration;
 using BepInEx.Unity.IL2CPP;
 using HarmonyLib;
-using Reactor;
 using Reactor.Utilities;
 
 namespace Reactor.Template;

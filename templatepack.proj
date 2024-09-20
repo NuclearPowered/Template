@@ -1,7 +1,7 @@
-<Project Sdk="Microsoft.Build.NoTargets/3.5.6" DefaultTargets="Pack">
+<Project Sdk="Microsoft.Build.NoTargets/3.7.56" DefaultTargets="Pack">
     <PropertyGroup>
         <PackageType>Template</PackageType>
-        <PackageVersion>4.0.0</PackageVersion>
+        <PackageVersion>5.0.0</PackageVersion>
         <PackageId>Reactor.Template</PackageId>
         <Authors>NuclearPowered</Authors>
         <Description>Mod template for Reactor.</Description>
