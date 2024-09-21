@@ -2,13 +2,14 @@
     <PropertyGroup>
         <PackageType>Template</PackageType>
         <PackageVersion>5.0.0</PackageVersion>
-        <PackageId>Reactor.Template</PackageId>
-        <Authors>NuclearPowered</Authors>
+        <PackageId>Daemon.Reactor.Template</PackageId>
+        <Authors>Daemon, NuclearPowered</Authors>
         <Description>Mod template for Reactor.</Description>
 
         <RepositoryType>git</RepositoryType>
-        <RepositoryUrl>https://github.com/NuclearPowered/Reactor.Template</RepositoryUrl>
+        <RepositoryUrl>https://github.com/DaemonBeast/Reactor.Template</RepositoryUrl>
         <PackageLicenseExpression>LGPL-3.0-or-later</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
 
         <TargetFramework>net6.0</TargetFramework>
 
@@ -18,6 +19,10 @@
         <NoDefaultExcludes>true</NoDefaultExcludes>
         <NoWarn>$(NoWarn);NU5128</NoWarn>
     </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="README.md" Pack="true" PackagePath="" />
+    </ItemGroup>
 
     <ItemGroup>
         <Compile Remove="**\*" />
