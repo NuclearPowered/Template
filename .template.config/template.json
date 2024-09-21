@@ -4,9 +4,9 @@
     "classifications": [
         "Reactor"
     ],
-    "identity": "Reactor.Template",
-    "name": "Reactor.Template",
-    "shortName": "reactor",
+    "identity": "Daemon.Reactor.Template",
+    "name": "Daemon.Reactor.Template",
+    "shortName": "daemon.reactor",
     "tags": {
         "language": "C#",
         "type": "solution",
